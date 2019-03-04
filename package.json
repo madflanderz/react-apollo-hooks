@@ -20,7 +20,8 @@
     "format": "prettier --write \"**/*.{js,ts,tsx}\"",
     "lint": "tslint --project . \"src/**/*.{ts,tsx}\"",
     "prepublishOnly": "npm run build",
-    "test": "jest"
+    "test": "jest",
+    "prepare": "npm run build"
   },
   "author": "Daniel Trojanowski",
   "license": "MIT",
